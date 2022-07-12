@@ -279,6 +279,45 @@ button {
   color: var(--first-color);
 }
 
+.home__search-input{
+  width: 90%;
+  background-color: var(--body-color);
+
+  color: var(--text-color);
+
+  margin: 0 .5rem;
+}
+
+.home__search-input::placeholder{
+  color: var(--text-color-light);
+}
+
+.home__value{
+  display: flex;
+  column-gap: 2.5rem;
+}
+
+.nome__value-number{
+  font-size: var(--h1-font-size);
+  font-weight: var(--font-medium);
+}
+
+.nome__value-number span{
+  color: var(--second-color);
+}
+
+.home__value-descripion{
+  display: flex;
+
+  color: var(--text-color-light);
+  font-size: var(--smaller-font-size);
+}
+
+.home__images{
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
 
 /*=============== BUTTON ===============*/
 

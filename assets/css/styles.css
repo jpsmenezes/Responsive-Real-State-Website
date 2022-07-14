@@ -64,10 +64,12 @@ html {
 }
 
 body {
+  background-color: var(--body-color);
+
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
-  background-color: var(--body-color);
   color: var(--text-color);
+
   transition: .3s; /* For animation dark mode */
 }
 
@@ -92,6 +94,7 @@ img {
 input,
 button {
   font-family: var(--body-font);
+
   outline: none;
   border: none;
 }
@@ -124,8 +127,9 @@ button {
 }
 
 .section__title {
-  font-size: var(--h2-font-size);
   margin-bottom: 1rem;
+
+  font-size: var(--h2-font-size);  
 }
 
 .section__title span {
@@ -134,6 +138,7 @@ button {
 
 .section__subtitle {
   display: block;
+
   font-size: var(--small-font-size);
   color: var(--second-color);
 }
@@ -157,19 +162,19 @@ button {
 }
 
 .nav{
-  height: var(--header-height);
-
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  height: var(--header-height);
 }
 
 .nav__logo{
-  color: #fff;
   display: inline-flex;
   align-items: center;
   column-gap: .25rem;
 
+  color: #fff;
   font-weight: var(--font-medium);
 
   transition: .3s;
@@ -247,7 +252,6 @@ button {
 
 .home__container{
   padding-top: 4rem;
-
   row-gap: 3.5rem;
 }
 
@@ -257,24 +261,25 @@ button {
 }
 
 .home__title{
-  font-size: var(--biggest-font-size);
-  line-height: 120%;
   margin-bottom: 1.25rem;
+
+  font-size: var(--biggest-font-size);
+  line-height: 120%;  
 }
 
 .home__description{
-  color: var(--text-color-light);
   margin-bottom: 2rem;
+
+  color: var(--text-color-light);
 }
 
 .home__search{
-  background-color: var(--body-color);
-
-  padding: .35rem .35rem .35rem .75rem;
-  margin-bottom: 2rem;
-
   display: flex;
   align-items: center;
+
+  background-color: var(--body-color);
+  padding: .35rem .35rem .35rem .75rem;
+  margin-bottom: 2rem;
 
   border-radius: .75rem;
   border: 3px solid var(--text-color-light);
@@ -288,10 +293,9 @@ button {
 .home__search-input{
   width: 90%;
   background-color: var(--body-color);
+  margin: 0 .5rem;
 
   color: var(--text-color);
-
-  margin: 0 .5rem;
 }
 
 .home__search-input::placeholder{
@@ -338,16 +342,16 @@ button {
   position: absolute;
   bottom: -1.5rem;
 
-  width: 250px;
-  height: 300px;
-
-  overflow: hidden;
-
-  border-radius: 125px 125px 12px 12px;
-  box-shadow: 0 16px 32px hsla(228, 66%,25%, .25);
-
   display: inline-flex;
   align-items: flex-end;
+
+  width: 250px;
+  height: 300px;
+  
+    border-radius: 125px 125px 12px 12px;
+    box-shadow: 0 16px 32px hsla(228, 66%,25%, .25);
+
+  overflow: hidden;
 }
 
 /*=============== BUTTON ===============*/
@@ -379,7 +383,13 @@ button {
 }
 
 /*=============== LOGOS ===============*/
+.logos__container{
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem 2rem;
+  justify-content: center;
 
+  padding-top: 2rem;
+}
 
 /*=============== POPULAR ===============*/
 

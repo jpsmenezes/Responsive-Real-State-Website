@@ -8,7 +8,13 @@ window.addEventListener('scroll', scrollHeader)
 
 
 /*=============== SWIPER POPULAR ===============*/
-const swiper = new Swiper(".popular__container", {
+const swiperPopular = new Swiper(".popular__container", {
+    spaceBetween: 32,
+    grabCursor: true,
+    centeredSlides: true,
+    slidersPerView: 'auto',
+    loop: true,
+
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",

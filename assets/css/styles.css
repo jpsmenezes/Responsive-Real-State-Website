@@ -418,6 +418,10 @@ button {
   transition: .4s;
 }
 
+.popular__card:hover{
+  box-shadow: 0 12px 16px hsla(228, 66%, 45%, .1);
+}
+
 .popular__img{
   border-radius: 1rem;
   margin-bottom: 1rem;
@@ -442,6 +446,10 @@ button {
   font-size: var(--h3-font-size);
 
   margin-bottom: .75rem;
+}
+
+.popular__description{
+  font-size: var(--small-font-size);
 }
 
 /* Swiper class */

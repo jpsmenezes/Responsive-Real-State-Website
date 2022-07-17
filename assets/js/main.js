@@ -8,7 +8,12 @@ window.addEventListener('scroll', scrollHeader)
 
 
 /*=============== SWIPER POPULAR ===============*/
-
+const swiper = new Swiper(".popular__container", {
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+});
 
 /*=============== VALUE ACCORDION ===============*/
 

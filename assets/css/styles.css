@@ -453,6 +453,34 @@ button {
 }
 
 /* Swiper class */
+.swiper-button-prev::after,
+.swiper-button-next::after{
+  content:" ";
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+  top: initial;
+  bottom: 0;
+
+  width: initial;
+  height: initial;
+  border: 2px solid var(--text-color-light);
+  border-radius: .5rem;
+  background-color: var(--container-color);
+
+  padding: 6px;
+
+  font-size: 1.5rem;
+  color: var(--first-color);
+}
+
+.swiper-button-prev{
+  left: calc(50% - 3rem);
+}
+.swiper-button-next{
+  right: calc(50% - 3rem);
+}
 
 
 /*=============== VALUE ===============*/

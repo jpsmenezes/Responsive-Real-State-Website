@@ -402,6 +402,7 @@ button {
 .logos__img img:hover{
   opacity: .6;
 }
+
 /*=============== POPULAR ===============*/
 .popular__container{
   padding: 1rem 0 5rem;
@@ -485,6 +486,38 @@ button {
 
 
 /*=============== VALUE ===============*/
+.value__container{
+  row-gap: 3rem;
+}
+
+.value__images{
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+}
+
+.value__orbe{
+  width: 266px;
+  height: 316px;
+  background-color: hsl(228, 24%, 97%);
+  border-radius: 135px 135px 16px 16px;
+}
+
+.value__img{
+  position: absolute;
+
+  width: 250px;
+  height: 300px;
+  border-radius: 125px 125px 12px 12px;
+  box-shadow: 0 16px 32px hsla(228, 66%, 25%, .25);
+
+  overflow: hidden;
+
+  inset: 0;
+
+  margin: auto;
+}
 
 
 /*Rotate icon and add shadows*/

@@ -696,11 +696,19 @@ button {
   border-radius: .25rem;
   box-shadow: none;
   background: var(--first-color-lighten);
-  
+
   font-size: var(--small-font-size);
   color: var(--first-color);
   font-weight: var(--font-semi-bold);
+}
 
+.contact__card-button:hover{
+  background-color: var(--first-color);
+  color: #fff;
+}
+
+.contact__card-box:hover{
+  box-shadow: 288, hsla(228, 66%, 45%, .1);
 }
 /*=============== SUBSCRIBE ===============*/
 

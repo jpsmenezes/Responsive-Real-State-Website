@@ -689,6 +689,19 @@ button {
 .contact__card-description{
   font-size: var(--smaller-font-size);
 }
+
+.contact__card-button{
+  width: 100%;
+  padding: 14px 0;
+  border-radius: .25rem;
+  box-shadow: none;
+  background: var(--first-color-lighten);
+  
+  font-size: var(--small-font-size);
+  color: var(--first-color);
+  font-weight: var(--font-semi-bold);
+
+}
 /*=============== SUBSCRIBE ===============*/
 
 

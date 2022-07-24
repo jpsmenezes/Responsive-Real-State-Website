@@ -25,8 +25,8 @@ const swiperPopular = new Swiper(".popular__container", {
 const accordionItems = document.querySelectorAll('.value__accordion-item');
 
 accordionItems.forEach((item) => {
-  const accordionHeader = item.querySelector('.value__accordion-header');
-  /*a constante vai receber o header do */
+   /*a constante vai receber o header do item selecionado */
+  const accordionHeader = item.querySelector('.value__accordion-header'); 
 
   accordionHeader.addEventListener('click', ()=>{
     const openItem = document.querySelector('.accordion-open');

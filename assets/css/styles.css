@@ -708,7 +708,7 @@ button {
 }
 
 .contact__card-box:hover{
-  box-shadow: 288, hsla(228, 66%, 45%, .1);
+  box-shadow: 288, hsla(228, 66%, 45%, .1)d;
 }
 /*=============== SUBSCRIBE ===============*/
 

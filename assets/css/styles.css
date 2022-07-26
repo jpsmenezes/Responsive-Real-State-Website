@@ -792,6 +792,51 @@ button {
   margin-bottom: 1rem;
 }
 
+.footer__links{
+  row-gap: .5rem;
+}
+
+.footer__link{
+  color: var(--text-color);
+
+  transition: .3s;
+}
+
+.footer__link:hover{
+  color: var(--title-color);
+}
+
+.footer__social{
+  display: flex;
+  column-gap: 1rem;
+}
+
+.footer__social-link{
+  font-size: 1.25rem;
+  color: var(--text-color);
+
+  transition: .3s;
+}
+
+.footer__social-link:hover{
+  color: var(--title-color);
+}
+
+.footer__info,
+.footer__privacy{
+  display: flex;
+}
+
+.footer__info{
+  padding-bottom: 6rem;
+  margin-top: 5.5rem;
+
+  flex-direction: column;
+  row-gap: 1.5rem;
+
+  text-align: center;
+}
+
 /*=============== SCROLL BAR ===============*/
 
 

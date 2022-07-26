@@ -827,14 +827,27 @@ button {
   display: flex;
 }
 
-.footer__info{
-  padding-bottom: 6rem;
-  margin-top: 5.5rem;
+.footer__info{  
+  margin: 5.5rem 0 1rem;
 
   flex-direction: column;
   row-gap: 1.5rem;
 
   text-align: center;
+}
+
+.footer__copy,
+.footer__privacy a{
+  font-size: var(--smaller-font-size);
+  font-weight: var(--font-medium);
+  color: var(--text-color);
+}
+
+.footer__privacy{
+  justify-content: center;
+  column-gap: 1.25rem;
+
+  padding-bottom: 6rem;
 }
 
 /*=============== SCROLL BAR ===============*/

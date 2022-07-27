@@ -53,22 +53,24 @@ const toggleItem = (item) =>{
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
 const sections = document.querySelectorAll('section[id]');
+/**adicionando à constante todas as sections que contenha um id */
     
 const scrollActive = () =>{
   	const scrollY = window.pageYOffset; /*o mesmo que scrollY*/
+    /**adicionando à constante a posição do scroll */
 
 	sections.forEach(current =>{
-		const sectionHeight = current.offsetHeight,
-			    sectionTop = current.offsetTop - 58,
-			    sectionId = current.getAttribute('id'),
-			    sectionsClass = document.querySelector('.nav__menu a[href*=' + sectionId + ']')
+		const sectionHeight = current.offsetHeight, /*const recebe a altura da section */
+			    sectionTop = current.offsetTop - 58, /* const recebe a posição superior (em pixels) em relação ao pai*/
+			    sectionId = current.getAttribute('id'), /*const recebe o id da posição current*/
+			    sectionsClass = document.querySelector('.nav__menu a[href*=' + sectionId + ']');
 
 		if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
-			sectionsClass.classList.add('active-link')
+			sectionsClass.classList.add('active-link');
 		}else{
-			sectionsClass.classList.remove('active-link')
-		}                                                    
-	})
+			sectionsClass.classList.remove('active-link');
+		} 
+	});
 }
 window.addEventListener('scroll', scrollActive)
 

@@ -72,7 +72,7 @@ const scrollActive = () =>{
 		} 
 	});
 }
-window.addEventListener('scroll', scrollActive)
+window.addEventListener('scroll', scrollActive);
 
 
 /*=============== SHOW SCROLL UP ===============*/ 

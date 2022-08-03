@@ -886,9 +886,16 @@ button {
   box-shadow: 0 8px 12px hsla(228, 66%, 45%, .1);  
   padding: .35rem;
   border-radius: .25rem;
-  
+
   color: var(--title-color);
   font-size: 1.25rem;
+
+  transition: .3s;
+}
+
+.scrollup:hover{
+  transform: translateY(-.25rem);
+  color: var(--first-color);
 }
 
 /* Show Scroll Up*/

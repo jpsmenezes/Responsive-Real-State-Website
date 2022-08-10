@@ -1023,14 +1023,24 @@ body.dark-theme{
       padding: .5rem .5rem .75rem;
     }
 
-    .value__img{
+    .value__img,
+    .contact__img{
       width: 220px;
       height: 260px;
     }
 
-    .value__orbe{
+    .value__orbe,
+    .contact__orbe{
       width: 236px;
       height: 280px;
+    }
+
+    .subscribe__container{
+      padding: 2rem 1rem;
+    }
+
+    .footer__container{
+      gap: 2.5rem;
     }
   }
 

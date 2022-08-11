@@ -1063,7 +1063,7 @@ body.dark-theme{
     grid-template-columns: repeat(3, max-content);
   }
 
-  @media screen and(min-width: 767px){
+  @media screen and (min-width: 767px){
     .home__container{
       grid-template-columns: repeat(2, 1fr);
       padding-top: 2rem;

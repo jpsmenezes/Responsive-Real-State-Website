@@ -1072,6 +1072,10 @@ body.dark-theme{
     .home__orbe{
       align-self: flex-end;
     }
+
+    .logos__container{
+      grid-template-columns: repeat(4, max-content);
+    }
   }
 }
 

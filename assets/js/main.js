@@ -9,9 +9,9 @@ window.addEventListener('scroll', scrollHeader)
 
 /*=============== SWIPER POPULAR ===============*/
 const swiperPopular = new Swiper(".popular__container", {
-    spaceBetween: 32,
-    grabCursor: true,
-    centeredSlides: true,
+    spaceBetween: 32, //espaço entre os elementos (px)
+    grabCursor: true, //Se true, o usuário verá o cursor "agarrar" ao passar o mouse sobre o Swiper
+    centeredSlides: true, //Se true, o slide ativo será centralizado
     slidersPerView: 'auto',
     loop: true,
 

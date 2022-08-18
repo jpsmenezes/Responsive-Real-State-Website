@@ -1073,8 +1073,18 @@ body.dark-theme{
       align-self: flex-end;
     }
 
+    .home__data{
+      padding-bottom: 2rem;
+    }
+
     .logos__container{
       grid-template-columns: repeat(4, max-content);
+      justify-content: center;
+    }
+
+    .value__container{
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
     }
   }
 }

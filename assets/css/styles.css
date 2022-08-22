@@ -1082,9 +1082,27 @@ body.dark-theme{
       justify-content: center;
     }
 
-    .value__container{
+    .value__container,
+    .contact__container{
       grid-template-columns: repeat(2, 1fr);
       align-items: center;
+    }
+
+    .contact__images{
+      order: 1;
+    }
+
+    .contact__card{
+      justify-content: initial;
+    }
+
+    .subscribe__container{
+      padding: 3rem 13rem;
+    }
+
+    .footer__container{
+      grid-template-columns: repeat(2, max-content);
+      justify-content: space-between;
     }
   }
 }

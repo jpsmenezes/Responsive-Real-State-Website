@@ -1180,6 +1180,15 @@ body.dark-theme{
   .home__data{
     padding-bottom: 4rem;
   }
+  
+  .home__title{
+    margin-bottom: 2rem;
+  }
+
+  .home__description,
+  .home__search{
+    margin-bottom: 3rem;
+  }
 }
 
 /* For 2K & 4K resolutions */

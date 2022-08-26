@@ -1206,6 +1206,16 @@ body.dark-theme{
     border-radius: 236px 236px 12px 12px;
     bottom: -2.5rem;
   }
+
+  .logos__img img{
+    height: 100px;
+  }
+
+  .popular__container{
+    padding-top: 3rem;
+  }
+
+
 }
 
 /* For 2K & 4K resolutions */

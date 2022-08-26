@@ -486,7 +486,7 @@ body.dark-theme{
 }
 
 .popular__card{
-  width: 290px;
+  width: 290px !important;
   background-color: var(--container-color);
   border-radius: 1rem;
 
@@ -1213,6 +1213,11 @@ body.dark-theme{
 
   .popular__container{
     padding-top: 3rem;
+  }
+
+  .popular__card{
+    width: 320px !important;
+    padding: .75rem .75rem 2rem;
   }
 
 

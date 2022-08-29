@@ -1224,21 +1224,43 @@ body.dark-theme{
     padding: 0 .25rem 0 .75rem;
   }
 
-  .value__container{
+  .value__container
+  .contact__container{
     align-items: flex-start;
     column-gap: 5rem;
   }
 
-  .value__orbe{
+  .value__orbe,
+  .contact__orbe{
     width: 501px;
     height: 641px;
     border-radius: 258px 258px 16px 16px;
   }
 
-  .value__img{
+  .value__img,
+  .contact__img{
     width: 461px;
     height: 601px;
     border-radius: 238px 238px 12px 12px;
+  }
+
+  .value__img img,
+  .contact__img img{
+    max-width: initial;
+    width: 490px;
+  }
+
+  .value__description{
+    font-size: var(--normal-font-size);
+    margin-bottom: 2.5rem;
+  }
+
+  .value__accordion-title{
+    font-size: var(--normal-font-size);
+  }
+
+  .value__accordion-item{
+    padding: 1.25rem 1.25rem 1.25rem 1rem;
   }
 
 }

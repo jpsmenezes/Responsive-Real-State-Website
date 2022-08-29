@@ -1285,6 +1285,12 @@ body.dark-theme{
 
   .subscribe__title{
     font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .subscribe__description{
+    font-size: var(--normal-font-size);
+    padding: 0 8rem;
   }
 
 }

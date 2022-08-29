@@ -1220,6 +1220,26 @@ body.dark-theme{
     padding: .75rem .75rem 2rem;
   }
 
+  .popular__data{
+    padding: 0 .25rem 0 .75rem;
+  }
+
+  .value__container{
+    align-items: flex-start;
+    column-gap: 5rem;
+  }
+
+  .value__orbe{
+    width: 501px;
+    height: 641px;
+    border-radius: 258px 258px 16px 16px;
+  }
+
+  .value__img{
+    width: 461px;
+    height: 601px;
+    border-radius: 238px 238px 12px 12px;
+  }
 
 }
 

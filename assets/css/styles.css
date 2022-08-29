@@ -1273,6 +1273,20 @@ body.dark-theme{
     grid-template-columns: repeat(2, 200px);
   }
 
+  .contact__card-box{
+    padding: 28px 1.5rem 1.5rem;
+  }
+
+  .subscribe__container{
+    padding: 4rem 10rem 4.5rem;
+    border-radius: 2rem;
+    border: 2px solid var(--first-color-light);
+  }
+
+  .subscribe__title{
+    font-size: 2.5rem;
+  }
+
 }
 
 /* For 2K & 4K resolutions */

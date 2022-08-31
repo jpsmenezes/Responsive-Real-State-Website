@@ -1305,7 +1305,7 @@ body.dark-theme{
     margin-bottom: 1.5rem;
   }
 
-  .footer__link{
+  .footer__links{
     row-gap: 1rem;
   }
 
@@ -1313,11 +1313,19 @@ body.dark-theme{
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 2rem;
+    padding-inline: 1rem;
   }
 
   .show-scroll{
     bottom: 3rem;
     right: 3rem;
+  }
+
+  @media screen and (min-width:1040px) {
+    .container{
+      margin-left: auto;
+      margin-right: auto;
+    }
   }
 
 }
